@@ -1,0 +1,6 @@
+2025-10-03 11:20:56 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Admin\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+2025-10-03 11:20:58 [main] INFO  page.steps.Hooks - ChromeDriver initialized, window maximized, and cookies cleared.
+2025-10-03 11:21:04 [main] INFO  page.steps.Hooks - Scenario 'Submit form with valid data' passed.
+2025-10-03 11:21:04 [main] INFO  page.steps.Hooks - ChromeDriver quit successfully.
