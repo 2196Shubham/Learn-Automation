@@ -19,9 +19,9 @@
         <span class="ms-3 fs-6">QA Test Project</span>
       </div>
       <div>
-        <span class="badge badge-outline text-lg"><i class="bi bi-hourglass me-1"></i> 7s</span>
-        <span class="badge badge-outline text-lg"><i class="bi bi-clock me-1 text-success"></i> 2025-10-03 11:20:57 am</span>
-        <span class="badge badge-outline text-lg me-3"><i class="bi bi-clock me-1 text-danger"></i> 2025-10-03 11:21:04 am</span>
+        <span class="badge badge-outline text-lg"><i class="bi bi-hourglass me-1"></i> 38s</span>
+        <span class="badge badge-outline text-lg"><i class="bi bi-clock me-1 text-success"></i> 2026-02-09 04:52:07 pm</span>
+        <span class="badge badge-outline text-lg me-3"><i class="bi bi-clock me-1 text-danger"></i> 2026-02-09 04:52:46 pm</span>
           <button role="button" id="sys-info" class="btn btn-outline-primary smaller" title="View System Info">
             <i class="bi bi-pc-display-horizontal"></i></button>
         <button role="button" id="shortcuts" class="btn btn-outline-primary smaller" title="Shortcuts">
@@ -46,8 +46,8 @@
                 </div>
               </div>
               <div class="card-footer small">
-                <span id="sp1">1</span> Passed,
-                <span id="sf1">0</span> Failed,
+                <span id="sp1">0</span> Passed,
+                <span id="sf1">1</span> Failed,
                 <span id="ss1">0</span> Skipped
               </div>
             </div>
@@ -64,7 +64,7 @@
               </div>
               <div class="card-footer small">
                 <span id="sp2">1</span> Passed,
-                <span id="sf2">0</span> Failed,
+                <span id="sf2">1</span> Failed,
                 <span id="ss2">0</span> Skipped
               </div>
             </div>
@@ -80,8 +80,8 @@
                   </div>
                 </div>
                 <div class="card-footer small">
-                  <span id="sp3">4</span> Passed,
-                  <span id="sf3">0</span> Failed,
+                  <span id="sp3">7</span> Passed,
+                  <span id="sf3">1</span> Failed,
                   <span id="ss3">0</span> Skipped
                 </div>
               </div>
@@ -110,11 +110,11 @@
               </thead>
               <tbody>
                   <tr>
-                    <td><a href="#" class="secondary tag">@SmokeTest</a></td>
+                    <td><a href="#" class="secondary tag">@SmokeTestLogin</a></td>
+                    <td>2</td>
                     <td>1</td>
                     <td>1</td>
-                    <td>0</td>
-                    <td>1ms</td>
+                    <td>8ms</td>
                   </tr>
               </tbody>
             </table>
@@ -138,20 +138,20 @@
         </div>
       </div>
     </div>
-      <div class="test-container passed">
+      <div class="test-container failed">
         <div class="container">
           <div class="row">
             <div class="col-4">
-              <h6 class="mb-3 testname fs-6 passed">Feature: Form Submission</h6>
+              <h6 class="mb-3 testname fs-6 failed">Feature: Form Submission</h6>
               <div class="small">
-                <span class="badge badge-outline"><i class="bi bi-hourglass me-1"></i> 2ms</span>
+                <span class="badge badge-outline"><i class="bi bi-hourglass me-1"></i> 8ms</span>
                 <span class="badge text-bg-info"><i class="bi bi-clock me-1"></i>
-                  2025-10-03 11:21:04 am</span>
+                  2026-02-09 04:52:46 pm</span>
                 <span class="badge text-bg-warning"><i class="bi bi-clock me-1"></i>
-                  2025-10-03 11:21:04 am</span>
+                  2026-02-09 04:52:46 pm</span>
               </div>
                 <div class="my-2">
-                    <span class="badge rounded-pill text-bg-secondary">@SmokeTest</span>
+                    <span class="badge rounded-pill text-bg-secondary">@SmokeTestLogin</span>
                 </div>
               
             </div>
@@ -161,35 +161,102 @@
                     <div class="d-flex justify-content-between">
                       <div>
                           <i class="bi bi-check-circle-fill text-success"></i>
-                        <span class="fs-6 ms-2">Scenario: Submit form with valid data</span>
+                        <span class="fs-6 ms-2">Scenario Outline: Login Functionality</span>
                       </div>
                       <div>
                           <span class="tag-list">
-                              <span class="badge rounded-pill text-bg-secondary">@SmokeTest</span>
+                              <span class="badge rounded-pill text-bg-secondary">@SmokeTestLogin</span>
                           </span>
                           <span class="mx-1">&middot;</span>
-                        <span class="badge text-dark bg-light">1ms</span>
+                        <span class="badge text-dark bg-light">3ms</span>
                       </div>
                     </div>
                     
   <div class="mt-2">
         <div class="mt-1 pb-1">
             <i class="bi bi-check-circle-fill text-success"></i>
-          <span class="ms-2">Given I navigate to "https://testing.qaautomationlabs.com/form.php"</span>
+          <span class="ms-2">Given Navigate to "https://practicetestautomation.com/practice-test-login/"</span>
         </div>
         <div class="mt-1 pb-1">
             <i class="bi bi-check-circle-fill text-success"></i>
-          <span class="ms-2">When I fill the form with the following data:</span>
+          <span class="ms-2">When Login with valid "student" "Password123"</span>
         </div>
         <div class="mt-1 pb-1">
             <i class="bi bi-check-circle-fill text-success"></i>
-          <span class="ms-2">And I click the submit button</span>
+          <span class="ms-2">And click on login button</span>
         </div>
         <div class="mt-1 pb-1">
             <i class="bi bi-check-circle-fill text-success"></i>
-          <span class="ms-2">Then I should see a successful submission message</span>
+          <span class="ms-2">Then Login successful message</span>
         </div>
   </div>
+                  </div>
+                </div>
+                <div class="card mb-3 result failed">
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                      <div>
+                          <i class="bi bi-exclamation-octagon-fill text-danger"></i>
+                        <span class="fs-6 ms-2">Scenario Outline: Login Functionality</span>
+                      </div>
+                      <div>
+                          <span class="tag-list">
+                              <span class="badge rounded-pill text-bg-secondary">@SmokeTestLogin</span>
+                          </span>
+                          <span class="mx-1">&middot;</span>
+                        <span class="badge text-dark bg-light">5ms</span>
+                      </div>
+                    </div>
+                    
+  <div class="mt-2">
+        <div class="mt-1 pb-1">
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="ms-2">Given Navigate to "https://practicetestautomation.com/practice-test-login/"</span>
+        </div>
+        <div class="mt-1 pb-1">
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="ms-2">When Login with valid "jane.smith@email.com" "Pass@456"</span>
+        </div>
+        <div class="mt-1 pb-1">
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="ms-2">And click on login button</span>
+        </div>
+        <div class="mt-1 pb-1">
+              <i class="bi bi-exclamation-octagon-fill text-danger"></i>
+          <span class="ms-2">Then Login successful message</span>
+            <pre class="py-2 mt-2">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='post-content']/p/strong[contains(text(),'Congratulations')]"}
+  (Session info: chrome=144.0.7559.133)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.28.0', revision: 'ac342546e9'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7dabe4eabd9a5ac8af9bd8d022ac509b, findElement {value=//div[@class='post-content']/p/strong[contains(text(),'Congratulations')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.133, chrome: {chromedriverVersion: 144.0.7559.133 (7da823b1d59..., userDataDir: C:\Users\SHUBHA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55268}, goog:processID: 4300, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55268/devtoo..., se:cdpVersion: 144.0.7559.133, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7dabe4eabd9a5ac8af9bd8d022ac509b
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at page.steps.FormSteps.loginSuccessfulMessage(FormSteps.java:91)
+	at ✽.Login successful message(file:///D:/Others/QA/LearnAutomation/src/test/resources/Features/form.feature:30)
+</pre>
+        </div>
+  </div>
+                      <div class="row mt-3">
+                          <div class="embed col-2 mb-1">
+                            <img src="resources/495d803e-4762-4abd-b8b8-366b468e2ed2.png" />
+                          </div>
+                      </div>
                   </div>
                 </div>
             </div>
@@ -200,22 +267,22 @@
   </div>
 
   <script>
-    const stats1Annotation = {'total': 1, 'passed': 1};
+    const stats1Annotation = {'total': 1, 'passed': 0};
     const stats1 = [
-      { result: 'Passed', count: 1, bg: 'rgb(140, 197, 83)' },
-      { result: 'Failed', count: 0, bg: 'rgb(233,80,113)' },
+      { result: 'Passed', count: 0, bg: 'rgb(140, 197, 83)' },
+      { result: 'Failed', count: 1, bg: 'rgb(233,80,113)' },
       { result: 'Skipped', count: 0, bg: 'rgb(13, 202, 240)' }
     ];
-      const stats2Annotation = {'total': 1, 'passed': 1};
+      const stats2Annotation = {'total': 2, 'passed': 1};
       const stats2 = [
         { result: 'Passed', count: 1, bg: 'rgb(140, 197, 83)' },
-        { result: 'Failed', count: 0, bg: 'rgb(233,80,113)' },
+        { result: 'Failed', count: 1, bg: 'rgb(233,80,113)' },
         { result: 'Skipped', count: 0, bg: 'rgb(13, 202, 240)' }
       ];
-      const stats3Annotation = {'total': 4, 'passed': 4};
+      const stats3Annotation = {'total': 8, 'passed': 7};
       const stats3 = [
-        { result: 'Passed', count: 4, bg: 'rgb(140, 197, 83)' },
-        { result: 'Failed', count: 0, bg: 'rgb(233,80,113)' },
+        { result: 'Passed', count: 7, bg: 'rgb(140, 197, 83)' },
+        { result: 'Failed', count: 1, bg: 'rgb(233,80,113)' },
         { result: 'Skipped', count: 0, bg: 'rgb(13, 202, 240)' }
       ];
      
@@ -235,11 +302,11 @@
               <tbody>
                   <tr>
                     <td>java.version</td>
-                    <td>23.0.1</td>
+                    <td>23.0.2</td>
                   </tr>
                   <tr>
                     <td>java.vm.name</td>
-                    <td>OpenJDK 64-Bit Server VM</td>
+                    <td>Java HotSpot(TM) 64-Bit Server VM</td>
                   </tr>
                   <tr>
                     <td>java.vm.vendor</td>
@@ -251,7 +318,7 @@
                   </tr>
                   <tr>
                     <td>java.runtime.name</td>
-                    <td>OpenJDK Runtime Environment</td>
+                    <td>Java(TM) SE Runtime Environment</td>
                   </tr>
                   <tr>
                     <td>os.name</td>

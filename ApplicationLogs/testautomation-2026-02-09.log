@@ -1,0 +1,72 @@
+2026-02-09 12:22:22 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ShubhamKumar\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-02-09 12:22:28 [main] INFO  page.steps.Hooks - ChromeDriver initialized, window maximized, and cookies cleared.
+2026-02-09 12:22:35 [main] INFO  page.steps.Hooks - Scenario 'Submit form with valid data' passed.
+2026-02-09 12:22:35 [main] INFO  page.steps.Hooks - ChromeDriver quit successfully.
+2026-02-09 12:23:51 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ShubhamKumar\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-02-09 12:23:53 [main] INFO  page.steps.Hooks - ChromeDriver initialized, window maximized, and cookies cleared.
+2026-02-09 12:23:59 [main] INFO  page.steps.Hooks - Scenario 'Submit form with valid data' passed.
+2026-02-09 12:23:59 [main] INFO  page.steps.Hooks - ChromeDriver quit successfully.
+2026-02-09 16:26:27 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ShubhamKumar\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-02-09 16:26:30 [main] INFO  page.steps.Hooks - ChromeDriver initialized, window maximized, and cookies cleared.
+2026-02-09 16:26:36 [main] INFO  page.steps.Hooks - Scenario 'Submit form with valid data' passed.
+2026-02-09 16:26:36 [main] INFO  page.steps.Hooks - ChromeDriver quit successfully.
+2026-02-09 16:46:18 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ShubhamKumar\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-02-09 16:46:20 [main] INFO  page.steps.Hooks - ChromeDriver initialized, window maximized, and cookies cleared.
+2026-02-09 16:46:20 [main] INFO  page.steps.Hooks - Scenario 'Submit form with valid data' passed.
+2026-02-09 16:46:21 [main] INFO  page.steps.Hooks - ChromeDriver quit successfully.
+2026-02-09 16:46:21 [main] INFO  page.steps.Hooks - ChromeDriver initialized, window maximized, and cookies cleared.
+2026-02-09 16:46:21 [main] INFO  page.steps.Hooks - Scenario 'Submit form with valid data' passed.
+2026-02-09 16:46:22 [main] INFO  page.steps.Hooks - ChromeDriver quit successfully.
+2026-02-09 16:47:17 [main] INFO  page.steps.Hooks - ChromeDriver initialized, window maximized, and cookies cleared.
+2026-02-09 16:47:17 [main] INFO  page.steps.Hooks - Scenario 'Login Functionality' passed.
+2026-02-09 16:47:17 [main] INFO  page.steps.Hooks - ChromeDriver quit successfully.
+2026-02-09 16:47:18 [main] INFO  page.steps.Hooks - ChromeDriver initialized, window maximized, and cookies cleared.
+2026-02-09 16:47:18 [main] INFO  page.steps.Hooks - Scenario 'Login Functionality' passed.
+2026-02-09 16:47:19 [main] INFO  page.steps.Hooks - ChromeDriver quit successfully.
+2026-02-09 16:48:33 [main] INFO  page.steps.Hooks - ChromeDriver initialized, window maximized, and cookies cleared.
+2026-02-09 16:48:33 [main] INFO  page.steps.Hooks - Scenario 'Login Functionality' passed.
+2026-02-09 16:48:33 [main] INFO  page.steps.Hooks - ChromeDriver quit successfully.
+2026-02-09 16:48:34 [main] INFO  page.steps.Hooks - ChromeDriver initialized, window maximized, and cookies cleared.
+2026-02-09 16:48:34 [main] INFO  page.steps.Hooks - Scenario 'Login Functionality' passed.
+2026-02-09 16:48:34 [main] INFO  page.steps.Hooks - ChromeDriver quit successfully.
+2026-02-09 16:48:51 [main] INFO  page.steps.Hooks - ChromeDriver initialized, window maximized, and cookies cleared.
+2026-02-09 16:48:51 [main] INFO  page.steps.Hooks - Scenario 'Login Functionality' passed.
+2026-02-09 16:48:51 [main] INFO  page.steps.Hooks - ChromeDriver quit successfully.
+2026-02-09 16:48:52 [main] INFO  page.steps.Hooks - ChromeDriver initialized, window maximized, and cookies cleared.
+2026-02-09 16:48:52 [main] INFO  page.steps.Hooks - Scenario 'Login Functionality' passed.
+2026-02-09 16:48:53 [main] INFO  page.steps.Hooks - ChromeDriver quit successfully.
+2026-02-09 16:49:37 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ShubhamKumar\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-02-09 16:49:39 [main] INFO  page.steps.Hooks - ChromeDriver initialized, window maximized, and cookies cleared.
+2026-02-09 16:50:00 [main] INFO  page.steps.Hooks - Scenario 'Login Functionality' passed.
+2026-02-09 16:50:00 [main] INFO  page.steps.Hooks - ChromeDriver quit successfully.
+2026-02-09 16:50:01 [main] INFO  page.steps.Hooks - ChromeDriver initialized, window maximized, and cookies cleared.
+2026-02-09 16:50:10 [main] INFO  page.steps.Hooks - Scenario 'Login Functionality' passed.
+2026-02-09 16:50:10 [main] INFO  page.steps.Hooks - ChromeDriver quit successfully.
+2026-02-09 16:51:30 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ShubhamKumar\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-02-09 16:51:31 [main] INFO  page.steps.Hooks - ChromeDriver initialized, window maximized, and cookies cleared.
+2026-02-09 16:51:38 [main] INFO  page.steps.Hooks - Scenario 'Login Functionality' passed.
+2026-02-09 16:51:38 [main] INFO  page.steps.Hooks - ChromeDriver quit successfully.
+2026-02-09 16:51:39 [main] INFO  page.steps.Hooks - ChromeDriver initialized, window maximized, and cookies cleared.
+2026-02-09 16:51:44 [main] ERROR page.steps.Hooks - Scenario 'Login Functionality' failed. Screenshot saved at: D:\Others\QA\LearnAutomation\ScreenShots\Login_Functionality_20260209_165144.png
+2026-02-09 16:51:44 [main] INFO  page.steps.Hooks - ChromeDriver quit successfully.
+2026-02-09 16:52:07 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ShubhamKumar\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-02-09 16:52:09 [main] INFO  page.steps.Hooks - ChromeDriver initialized, window maximized, and cookies cleared.
+2026-02-09 16:52:35 [main] INFO  page.steps.Hooks - Scenario 'Login Functionality' passed.
+2026-02-09 16:52:36 [main] INFO  page.steps.Hooks - ChromeDriver quit successfully.
+2026-02-09 16:52:36 [main] INFO  page.steps.Hooks - ChromeDriver initialized, window maximized, and cookies cleared.
+2026-02-09 16:52:45 [main] ERROR page.steps.Hooks - Scenario 'Login Functionality' failed. Screenshot saved at: D:\Others\QA\LearnAutomation\ScreenShots\Login_Functionality_20260209_165245.png
+2026-02-09 16:52:46 [main] INFO  page.steps.Hooks - ChromeDriver quit successfully.
